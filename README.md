@@ -1,6 +1,6 @@
 # Modcsv
 
-VB6 working copy of `Modcsv` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: ModCSV. Output: `ModCSV.exe`. `VersionCompanyName`: CSC.
+CSC VB6 ModCSV (`ModCSV.exe`) - Modify Domain Admin .csv files. Finds Traveller rows in domain-admin CSVs and rewrites drive-path columns (Q/O/X/N/T/P style `%siteserver%\...` paths) for traveller users via a RichTextBox (`richtx32.ocx`).
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,7 +10,7 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `ModCSV` (`Modcsv.vbp`) | VB6 | WinForms exe | ModCSV |
+| `ModCSV` (`Modcsv.vbp`) | VB6 | WinForms exe | Modify Domain Admin traveller CSV paths |
 
 ## How to open
 
@@ -30,4 +30,4 @@ Company names in project files: CSC.
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+MIT (c) 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
